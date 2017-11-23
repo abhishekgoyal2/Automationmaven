@@ -12,7 +12,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class loadPropety 
 {
 	
-	static String filelocation="D:/Automation workshop/mvn_Automation_workshop2017/mvn_Automation_workshop2017/Recources/configuration.txt";
+	static String filelocation="Recources/configuration.txt";
 	public static WebDriver driver;
 	
 	public static void main( String[] args ) throws IOException

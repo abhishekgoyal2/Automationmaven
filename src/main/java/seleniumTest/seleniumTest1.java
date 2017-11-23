@@ -31,7 +31,7 @@ private boolean acceptNextAlert = true;
   
   {
 	  
-//	System.setProperty("webdriver.firefox.marionette","D:\\Automation_Software\\Selenium Jars\\geckodriver.exe");  
+		System.setProperty("webdriver.gecko.driver", "D:/software/geckodriver-v0.19.0-win64/geckodriver.exe");
     driver = loadPropety.getBrowser("browser");
     baseUrl = loadPropety.getValue("url");
     driver.manage().timeouts().implicitlyWait(30, TimeUnit.MILLISECONDS);
